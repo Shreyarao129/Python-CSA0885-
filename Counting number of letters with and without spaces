@@ -1,0 +1,5 @@
+string="This is a string"
+total_letters=len(string)
+print("Number of letters with spaces: ",total_letters)
+letters_without_spaces=len(string.replace(" ",""))
+print("Number of letters without spaces: ",letters_without_spaces)
